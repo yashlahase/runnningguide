@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; 
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    color:  #f7a200;
+    margin-top: 80px;
+    font-size: 2.3rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f7a200; 
+    margin-bottom: 10px;
+  }
+
+h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cdb47e;
+    font-size: 1.1rem;
+}
+
+.section {
+    background-color: #1c1c1c; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 60px 90px;
+  }
+
+
+.week-list {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 90px;
+  }
+  
+  .week-item1 {
+    background: #121212; /* Card background */
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .week-item1 p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Hover Effect */
+  .week-item1:hover {
+    transform: translateY(-5px);
+    border-color: #f7a200;
+  }
+
+.week-item2 {
+    background: #121212; /* Card background */
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  .week-item2 p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Hover Effect */
+  .week-item2:hover {
+    transform: translateY(-5px);
+    border-color: #f7a200;
+  }
+
+
+/*for second section */
+
+.section2 {
+    background-color: #1c1c1c; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 60px 90px;
+  }
+
+.week-item3 {
+    background: #121212; /* Card background */
+    width:525px;
+    height: auto;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  .week-item3 p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Hover Effect */
+  .week-item3:hover {
+    transform: translateY(-5px);
+    border-color: #f7a200;
+  }
+
+
+
+
+  .week-item4 {
+    background: #121212; /* Card background */
+    width: 540px;
+    height: auto;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  .week-item4 p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Hover Effect */
+  .week-item4:hover {
+    transform: translateY(-5px);
+    border-color: #f7a200;
+  }
+
+
+.tip p{
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.footer {
+    height: 150px;
+    width: auto;
+    background-color: #1c1c1c; 
+    
+  }

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; 
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    color:  #f7a200;
+    margin-top: 80px;
+    font-size: 3rem;
+}
+
+
+.physical-grid{
+    display: flex;
+    gap: 20px;
+    width: 1400px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.physical-item {
+    background: #121212; /* Card background */
+    border-radius: 8px;
+    padding: 20px;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+.physical-item h3 {
+  font-size: 1.7rem;
+  color: #f7a200; /* Accent color for titles */
+  margin-bottom: 10px;
+}
+
+.physical-item p{
+    font-size: 1.1rem;
+    color: #ccc; /* Muted text for descriptions */
+    line-height: 1.5;
+    margin-left: 3ch;
+
+    
+  }
